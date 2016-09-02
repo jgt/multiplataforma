@@ -1,0 +1,51 @@
+@font-face
+{
+    font-family: 'optima-regular';
+    src: url('../fonts/optima-regular.eot');
+    src: url('../fonts/optima-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/optima-regular.woff2') format('woff2'),
+         url('../fonts/optima-regular.woff') format('woff'),
+         url('../fonts/optima-regular.ttf') format('truetype'),
+         url('../fonts/optima-regular.svg#optima-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'optima-black';
+    src: url('../fonts/optima-black.eot');
+    src: url('../fonts/optima-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/optima-black.woff2') format('woff2'),
+         url('../fonts/optima-black.woff') format('woff'),
+         url('../fonts/optima-black.ttf') format('truetype'),
+         url('../fonts/optima-black.svg#optima-black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'optima-bold';
+    src: url('../fonts/optima-bold.eot');
+    src: url('../fonts/optima-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/optima-bold.woff2') format('woff2'),
+         url('../fonts/optima-bold.woff') format('woff'),
+         url('../fonts/optima-bold.ttf') format('truetype'),
+         url('../fonts/optima-bold.svg#optima-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'optima-demi-bold';
+    src: url('../fonts/optima-demi-bold.eot');
+    src: url('../fonts/optima-demi-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/optima-demi-bold.woff2') format('woff2'),
+         url('../fonts/optima-demi-bold.woff') format('woff'),
+         url('../fonts/optima-demi-bold.ttf') format('truetype'),
+         url('../fonts/optima-demi-bold.svg#optima-demi-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

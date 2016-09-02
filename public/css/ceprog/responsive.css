@@ -1,0 +1,919 @@
+
+@media only screen and (max-width: 1598px)
+{
+	.MainMenu-List--Before::before
+    {
+        top: 4px;
+    	left: 119px;
+    }
+
+    .Slider-Img2
+    {
+      left: 2% !important;
+    }
+}
+
+@media only screen and (max-width: 1492px)
+{
+	  .Slider-Img1
+    {
+        left: 2% !important;
+    }
+
+    .Slider-Titulo
+    {
+        font: 68px 'optima-bold';
+    }
+
+    .Slider-Img2
+    {
+      left: -2% !important;
+    }
+
+    .Slider-Img3
+    {
+        left: 2% !important;
+    }
+
+    .Slider-Titulo3
+    {
+        width: 271px !important;
+    }
+}
+
+@media only screen and (max-width: 1344px)
+{
+    .Slider-Img2
+    {
+        left: -7% !important;
+    }
+
+    .Slider-Img1
+    {
+        left: -4% !important;
+    }
+
+    .Slider-Img3
+    {
+        left: -2% !important;
+    }
+
+    .Slider-Img4
+    {
+        left: 2% !important;
+    }
+
+    .btn-slider1
+	{
+	    margin-left: -144px;
+	}
+}
+
+@media only screen and (max-width: 1285px)
+{
+    .Footer-ListUniversidades 
+    {
+        width: 1000px;
+    }
+    
+    .Footer-ListUniversidades li a 
+    {
+        width: 244px;
+    }
+}
+
+@media only screen and (max-width: 1248px)
+{
+	  .fs-pager-wrapper
+    {
+        margin-left: 85px;
+    }
+}
+
+@media only screen and (max-width: 1203px)
+{
+		.btn-slider1
+		{
+				margin-left: -127px;
+		}
+}
+
+@media only screen and (max-width: 1150px)
+{
+    .Slider-Img2
+    {
+        left: -11% !important;
+    }
+
+    .Slider-Titulo
+    {
+        font: 63px 'optima-bold';
+    }
+
+    /*.Slider-Info
+    {
+        margin-top: -11px;
+    }*/
+
+    .Slider-Img3
+    {
+        left: -7% !important;
+    }
+
+    .Slider-Img4
+    {
+        left: -7% !important;
+    }
+}
+
+@media only screen and (max-width: 1064px)
+{
+		.Slider-Img2
+		{
+				width: 415px;
+				margin-left: 198px;
+				margin-top: 23px;
+		}
+}
+
+@media only screen and (max-width: 1028px)
+{
+    .Slider-Img1
+    {
+        width: 325px;
+        margin-left: 150px;
+        margin-top: 61px;
+    }
+
+    .Slider-Titulo
+    {
+        font: 60px 'optima-bold';
+    }
+
+    .Slider-Img2
+    {
+        margin-left: 112px;
+        margin-top: 78px;
+    }
+
+    .Slider-Img3
+    {
+        width: 288px;
+        margin-left: 160px;
+        margin-top: 49px;
+    }
+
+    .Slider-Titulo3
+    {
+        width: 240px !important;
+    }
+
+    .Slider-Img4
+    {
+        width: 300px;
+        margin-left: 180px;
+        margin-top: 54px;
+    }
+
+    .Slider--Titulo
+	{
+	    width: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 1019px)
+{
+    .Footer-ListUniversidades 
+    {
+        width: 732px;
+    }
+    
+    .Footer-ListUniversidades li a 
+    {
+        width: 178px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 981px)
+{
+	.btn-slider1
+	{
+			margin-left: -96px;
+	}
+}
+
+@media only screen and (max-width: 899px)
+{
+	.fs-pager-wrapper
+	{
+			margin-top: 85px;
+	}
+}
+
+@media only screen and (max-width: 874px)
+{
+    .Slider-Img1
+    {
+        margin-left: 116px;
+    }
+
+    .Slider-Img2
+    {
+        width: 348px;
+        margin-left: 156px;
+        margin-top: 97px;
+    }
+
+    .Slider-Titulo
+    {
+        margin-top: 44px;
+    }
+
+    .fs-pager-wrapper
+    {
+        margin-top: 85px;
+    }
+
+    .Slider-Img3
+    {
+        width: 270px;
+        margin-left: 133px;
+        margin-top: 76px;
+    }
+
+    .Slider-Img4
+    {
+        width: 271px;
+        margin-left: 161px;
+        margin-top: 95px;
+    }
+
+    .MainMenu-List
+    {
+        font-size: 23px;
+        margin-right: 56px;
+    }
+
+    .MainMenu-List--Before::before
+    {
+        left: 131px;
+    }
+
+    .MainMenu-Item
+    {
+        width: 630px;
+    }
+
+    .MainMenu--ListSub
+    {
+        font-size: 22px;
+    }
+
+    .Slider-Titulo
+    {
+        width: 190px !important;
+        font-size: 55px;
+    }
+
+    .Slider--Titulo
+    {
+        width: 196px !important;
+    }
+}
+
+@media only screen and (max-width: 846px)
+{
+	.btn-slider1
+	{
+			margin-left: -92px;
+	}
+}
+
+@media only screen and (max-width: 780px)
+{
+	.MainMenu-Uceprog
+	{
+		height: 75px;	
+	}
+	
+    .MainMenu-List
+    {
+        font-size: 21px;
+        margin-right: 47px;
+        font-size: 19px;
+    }
+
+    .MainMenu-Item
+    {
+        width: 570px;
+    }
+
+    .MainMenu-List--Before::before
+    {
+        display: none;
+    }
+
+    .MainMenu--ListSub a
+    {
+        margin-right: 104px;
+    }
+
+    .Slider-Img1
+    {
+        width: 280px;
+        margin-left: 105px;
+        margin-top: 119px;
+    }
+
+    .Slider-Img2
+    {
+        width: 318px;
+        margin-left: 140px;
+        margin-top: 131px;
+    }
+
+    .Slider-Img3
+    {
+        width: 240px;
+        margin-left: 115px;
+        margin-top: 121px;
+    }
+
+    .Slider-Titulo3
+    {
+        width: 210px !important;
+        margin-top: 51px;
+    }
+
+    .Slider-Info
+    {
+        margin-top: 15px;
+    }
+
+    .Slider-Img4
+    {
+        width: 240px;
+        margin-left: 136px;
+        margin-top: 139px;
+    }
+
+
+    .MenuBurger
+	{
+	}
+
+	.MenuResponsive
+	{
+			background: url(../image/ico-responsive.png) center no-repeat;
+			display: inline-block;
+	    width: 50px;
+	    height: 50px;
+	    background-color: #3e3e3e;
+	    position: absolute;
+	    right: 55px;
+      bottom: inherit;
+      margin-top: 12px;
+	}
+
+	.MenuResponsive:hover
+	{
+		background-color: #de3c85;
+	}
+
+ 	.MainMenu-Submenu
+ 	{
+	    display: block !important;
+	    margin-top: 0px !important;
+	    margin-left: 20px !important;
+	    padding-top: 0px !important;
+	    position: relative;
+	    left: 0px;
+	}
+
+	.MainMenu-Item.subMenu:before
+	{
+	    background: none;
+	}
+
+	.MainMenu-ListMenu
+	{
+		  display: none;
+  		width: 40%;
+  		height: auto;
+  		background: #3f3f3f;
+      margin-top: 88px;
+      margin-right: 68px;
+  		margin-left: 44px;
+  		padding-top: 5px;
+  		padding-bottom: 8px;
+  		border-radius:0.4em;
+  		-webkit-border-radius:0.4em;
+  		-0-border-radius:0.4em;
+  		-moz-border-radius:0.4em;
+  		-ms-border-radius:0.4em;
+    	position: absolute;
+      	z-index: 9999;
+    }
+
+	.Inicio-Center .MainMenu-ListMenu
+	{
+		  top: 82px;
+    	position: fixed;
+	}
+
+	.MainMenu-ListMenu li
+ 	{
+  		width:100%;
+  		margin-right: 0px;
+ 	}
+
+	.MainMenu-ListMenu li a
+ 	{
+  		display:block !important;
+  		width: 100%;
+  		color:#ffffff !important;
+  		text-align:left;
+  		border-bottom: 0px;
+  		padding: 10px;
+  		padding-left: 32px;
+	    -webkit-box-sizing: border-box;
+	    -o-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+
+	.MainMenu-ListMenu li a:hover
+	{
+		color: #df3c86 !important;
+	}
+
+	.MainMenu-ListMenu .MainMenu-Item:hover
+ 	{
+		color: #df3c86 !important;
+ 	}
+
+	.MainMenu-ListMenu.seleccionar
+ 	{
+  		display:block;
+ 	}
+
+	.MainMenu-ItemMenu.subMenu:before
+	{
+	    background: none;
+	}
+
+  .MainMenu-Item ul
+  {
+      background-color: inherit;
+  }
+
+  .MainMenu-Item li ul
+  {
+      position: relative;
+      padding-left: 0px;
+      text-align: left;
+      margin-left: 10px !important;
+  }
+
+  .MainMenu--ListSub
+  {
+      margin-top: 0px;
+  }
+
+  .MainMenu--ListSub
+  {
+      font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 751px)
+{
+    .Footer-ListUniversidades 
+    {
+        width: 600px;
+    }
+    
+    .Footer-ListUniversidades li a 
+    {
+        width: 145px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 725px)
+{
+	.btn-slider1
+	{
+			margin-left: -73px;
+			background-position-x: 71%;
+			background-position-y: 8px;
+	}
+
+	.fs-pager-wrapper
+	{
+    	margin-top: 135px;
+	}
+}
+
+@media only screen and (max-width: 697px)
+{
+  .Slider-Img1
+  {
+      width: 235px;
+      margin-left: 105px;
+      margin-top: 178px;
+  }
+
+  .Slider-Titulo
+  {
+      margin-top: 100px;
+  }
+
+  .fs-pager-wrapper
+  {
+      margin-top: 175px;
+  }
+
+  .Slider-Img2
+  {
+      width: 280px;
+      margin-left: 130px;
+      margin-top: 173px;
+  }
+
+  .Slider--Titulo
+  {
+      width: 272px !important;
+  }
+
+  .Slider--Titulo span
+  {
+      margin-top: 13px;
+  }
+
+  .Slider-Info
+  {
+      margin-top: 29px;
+  }
+
+  .Slider-Img3
+  {
+      width: 232px;
+      margin-left: 103px;
+      margin-top: 133px;
+  }
+
+  .Slider-Img4
+  {
+      width: 222px;
+      margin-left: 120px;
+      margin-top: 165px;
+  }
+}
+
+@media only screen and (max-width: 683px)
+{
+	.Slider-Info
+	{
+			width: 199px !important;
+	}
+}
+
+@media only screen and (max-width: 626px)
+{
+  .Slider
+  {
+      display: none;
+  }
+
+  .Responsive-Uceprog
+  {
+      width: 100%;
+      height: 548px;
+      background-color: #494646;
+			display: block;
+  }
+
+  .Responsive-Reforma
+  {
+    width: 100%;
+    height: 137px;
+    background: url(../image/rw_reforma.png) no-repeat;
+    background-size: 100%;
+    border-bottom: 3px solid #ffffff;
+
+  }
+
+  .Responsive-Tuxtla
+  {
+    width: 100%;
+    height: 137px;
+    background: url(../image/rw_tuxtla.png) no-repeat;
+    background-size: 100%;
+    border-bottom: 3px solid #ffffff;
+  }
+
+  .Responsive-Palenque
+  {
+    width: 100%;
+    height: 137px;
+    background: url(../image/rw_palenque.png) no-repeat;
+    background-size: 100%;
+    border-bottom: 3px solid #ffffff;
+  }
+
+  .Responsive-SanCristobal
+  {
+    width: 100%;
+    height: 137px;
+    background: url(../image/rw_sancristobal.png) no-repeat;
+    background-size: 100%;
+  }
+
+  .Responsive-Title
+  {
+      width: 100px !important;
+      font: 30px 'optima-bold';
+      color: #d6d6d6;
+      padding-top: 15px;
+      margin-left: 100px;
+      display: inline-block;
+  }
+
+  .Responsive-Title span
+  {
+      color: #de3c85;
+  }
+
+  .Responsive-Info
+  {
+      width: 119px !important;
+      font: 16px 'optima-demi-bold';
+      color: #b7b7b7;
+      padding-top: 0px;
+      display: inline-block;
+      margin-left: 153px;
+  }
+
+  .Size
+  {
+      width: 215px !important;
+  }
+
+  .Size-Info
+  {
+      margin-left: 40px;
+  }
+
+  .MainMenu-ListMenu
+  {
+      width: 42%;
+  }
+
+  .Responsive-Ico
+  {
+      width: 50px;
+      height: 50px;
+      background: url(../image/ico-flecha.png) no-repeat;
+      float: right;
+      margin-top: 37px;
+      margin-right: 22px;
+      cursor: pointer;
+  }
+
+  .Responsive-Ico:hover
+  {
+      background: url(../image/ico-flechaB.png) no-repeat;
+      -webkit-transform: translateX(5px);
+      -moz-transform: translateX(5px);
+      -o-transform: translateX(5px);
+      -ms-transform: translateX(5px);
+      transform: translateX(5px);
+  }
+
+  .Header-Logo img
+  {
+      width: 460px;
+      margin-left: 20px;
+  }
+    
+    .Footer-ListUniversidades 
+    {
+        display: none;
+    }
+    
+    .Footer-Informacion 
+    {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 579px)
+{
+    .Responsive-Title
+    {
+        margin-left: 65px;
+    }
+
+    .Responsive-Info
+    {
+        margin-left: 127px;
+    }
+
+    .Size-Info
+    {
+        margin-left: 14px;
+    }
+
+    .MainMenu-ListMenu
+    {
+        width: 59%;
+    	margin-right: 48px;
+    	padding-right: 10px;
+    }
+	
+	.Header-Container 
+	{
+    	height: 210px;
+    }
+
+    .Header-Logo
+    {
+        width: 300px;
+    }
+
+    .Header-Logo img
+    {
+        width: 100%;
+	    margin-top: 49px;
+		margin-left: 0px;
+    }
+
+    .MainMenu--ListSub
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 509px)
+{
+    .Responsive-Title
+    {
+        font-size: 27px;
+    }
+
+    .Responsive-Info
+    {
+        margin-left: 91px;
+    }
+
+    .Size
+    {
+        width: 162px !important;
+    }
+
+    .Size-Info
+    {
+        margin-left: 21px;
+    }
+}
+
+@media only screen and (max-width: 465px)
+{
+  .Responsive-Info
+  {
+			width: 116px !important;
+			margin-left: 78px;
+  }
+
+	.Responsive-Title
+	{
+    	margin-left: 30px;
+	}
+
+	.Size-Info
+	{
+    	margin-left: 16px !important;
+	}
+}
+
+@media only screen and (max-width: 420px)
+{
+	.Responsive-Title
+	{
+			width: 87px !important;
+			font-size: 23px;
+		    margin-top: 14px;
+	}
+
+	.Responsive-Info
+	{
+	    margin-left: 32px;
+	}
+
+	.Size
+	{
+  	  	width: 106px !important;
+	  	vertical-align: middle;
+	}
+
+	.Size-Info
+	{
+    	margin-left: 12px !important;
+		vertical-align: middle;
+	}
+
+	/*.Header-Logo img
+	{
+    	width: 330px;
+	}*/
+}
+
+@media only screen and (max-width: 340px)
+{
+	.Header-Logo
+	{
+			width: 290px;
+	}
+
+	.Header-Logo img
+	{
+    	width: 275px;
+		margin-left: 14px;
+	}
+
+	.MainMenu-ListMenu
+	{
+    	width: 59%;
+    	margin-right: 48px;
+    	padding-right: 10px;
+	}
+
+	.Responsive-Ico
+	{
+			width: 16px;
+			height: 32px;
+    	margin-top: 1px;
+		  background-size: 100%;
+	}
+
+	.Responsive-Info
+	{
+    	margin-left: 15px;
+	}
+
+	.Responsive-Title
+	{
+			padding-top: 31px;
+	}
+
+	.San-Cristobal
+	{
+			margin-top: -20px;
+	}
+
+	.Reforma
+	{
+			margin-top: 50px;
+	}
+
+	.Tuxtla
+	{
+		  margin-top: 66px;
+	}
+
+	.Palenque
+	{
+		    margin-top: 50px;
+	}
+
+	.San-Cristobal
+	{
+			margin-top: 60px;
+	}
+	
+	.Responsive-Title
+	{
+			  font-size: 20px;
+	}
+
+	.Size-Info
+	{
+    	margin-left: 0px !important;
+	}
+
+	.Responsive-Ico:hover
+	{
+			background-size: 100%;
+	}
+
+	.Footer-Informacion p
+	{
+	    width: 175px;
+			font-size: 14px;
+	    margin-left: 72px;
+	}
+}

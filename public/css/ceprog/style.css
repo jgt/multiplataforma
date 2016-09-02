@@ -1,0 +1,460 @@
+
+.Header-Container
+{
+    width: 100%;
+    height: 371px;
+    height: 280px;
+    background: url('/image/fondos/bg_header.jpg') center no-repeat;
+    border-bottom: 9px solid #df3c86;
+    background-size: cover; 
+}
+
+.Header-Logo
+{
+    width: 537px;
+    height: 178px;
+    margin: 0px auto;
+    background-size: 100% 100%;
+}
+
+.Header-Logo img
+{
+    margin-top: 100px;
+    margin-top: 60px;
+}
+
+/****************************************************************/
+
+.MainMenu-List
+{
+    font: 20px 'optima-regular';
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 60px;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+
+.MainMenu-List--Before::before
+{
+    content: "";
+    width: 22px;
+    height: 11px;
+    background: url('/image/ico-menu.png') no-repeat;
+    padding-bottom: 9px;
+    position: absolute;
+    top: 4px;
+    left: 119px;
+    margin-top: 13px;
+}
+
+.Main-Nosotros
+{
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.MainMenu-List:hover
+{
+    color: #df3c86;
+}
+
+.MainMenu-List a:hover
+{
+    color: #df3c86;
+}
+
+.MainMenu--ListSub
+{
+    font: 20px 'optima-regular';
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+
+.MainMenu--ListSub a
+{
+    color: #636363;
+    margin-right: 139px;
+}
+
+.MainMenu--ListSub a:hover
+{
+    color: #000000;
+}
+
+
+.MainMenu-Uceprog
+{
+  width: 100%;
+  height: 50px;
+  background-color: #3f3f3f;
+}
+
+.MainMenu-Item
+{
+    width: 690px;
+    height: 37px;
+    margin: 0px auto;
+    padding-top: 8px;
+}
+
+.MainMenu-Item li ul
+{
+    display: block;
+    position:absolute;
+    width: 100%;
+    height: 43px;
+    z-index: 3;
+    left: 0px;
+    text-align: center;
+    padding-left: 44px;
+    margin-top: 12px;
+    display: none;
+    box-sizing: border-box;
+}
+
+.MainMenu-Item ul
+{
+		background-color: #d5d5d5;
+}
+
+.MainMenu-List:hover > ul
+{
+    display: block;
+}
+.MainMenu-Item li ul li
+{
+		position:relative;
+    display: inline-block;
+}
+
+.MainMenu-Item li ul li ul
+{
+		right:-140px;
+		top:0px;
+}
+/****************************************************/
+.Slider
+{
+  	width: 100%;
+  	height: 523px;
+  	background-size: 100%;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.Slider .slider
+{
+  	max-width: 100% !important;
+}
+
+
+.Slider-Fondo1
+{
+  	background:url(/image/slider/bg_reforma.jpg) no-repeat;
+}
+
+.Slider-Fondo2
+{
+  	background:url(/image/slider/bg_tuxtla.jpg) no-repeat;
+}
+
+.Slider-Fondo3
+{
+  	background:url(/image/slider/bg_palenque.jpg) no-repeat;
+}
+
+.Slider-Fondo4
+{
+  	background:url(/image/slider/bg_sancristobal.jpg) no-repeat;
+}
+
+.Slider-Titulo
+{
+  	width: 286px !important;
+  	font: 70px 'optima-bold';
+  	color: #d6d6d6;
+}
+
+.Slider--Titulo
+{
+    width: 509px !important;
+    font: 70px 'optima-bold';
+    color: #d6d6d6;
+    line-height: 90px;
+}
+
+.Slider-Titulo span
+{
+    color: #de3c85;
+}
+
+.Slider--Titulo span
+{
+    color: #de3c85;
+}
+
+.Slider-Info
+{
+  	width: 270px !important;
+  	font: 35px 'optima-demi-bold';
+  	color: #b7b7b7;
+}
+
+.Slider-Info span
+{
+    font-family: 'optima-regular';
+}
+
+.u-imagenFondo
+{
+	background-size: 100% 100% !important;
+}
+
+.Slider-Img1
+{
+    width: 372px;
+    margin-left: 215px;
+}
+
+.Slider-Img2
+{
+    width: 436px;
+    margin-left: 215px;
+}
+
+.Slider-Img3
+{
+    width: 320px;
+    margin-left: 215px;
+}
+
+.Slider-Img4
+{
+    width: 337px;
+    margin-left: 215px;
+}
+
+.btn-slider1
+{
+    display: inline-block;
+    width: 82px !important;
+    height: 21px !important;
+  	color: #fff;
+  	font: 17px 'optima-regular';
+    padding-top: 9px;
+    position: absolute;
+    z-index: 99999 !important;
+    margin-left: -167px;
+    background: url(/image/ico-vermas.png) no-repeat;
+    background-position-x: 90%;
+    background-position-y: 13px;
+}
+
+.btn-slider1:hover
+{
+  	cursor: pointer;
+    color: #de3c85;
+    background: url(/image/ico-vermasB.png) no-repeat;
+    background-position-x: 90%;
+    background-position-y: 13px;
+}
+
+.btn-slider1:before
+{
+	  content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 17px;
+    right: 13px;
+    -webkit-transform: rotate(270deg);
+  	-o-transform: rotate(270deg);
+  	-ms-transform: rotate(270deg);
+  	-moz-transform: rotate(270deg);
+  	transform: rotate(270deg);
+}
+
+/****************************************************/
+.Footer-Container
+{
+  width: 100%;
+  height: 345px;
+  background: url(/image/fondos/bg_footer.jpg) no-repeat;
+  background-size: cover;    
+}
+
+.Footer-ListUniversidades
+{
+    width:  1266px;
+    margin: 0px auto;
+}
+
+.Footer-ListUniversidades li
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2px;
+}
+
+.Footer-ListUniversidades li.Tuxtla
+{
+    margin-right:  0px;
+}
+
+.Footer-ListUniversidades li a
+{
+    display: inline-block;
+    width:  312px;
+    height: 60px;
+    font: 25px 'optima-regular';
+    text-align: center;
+    text-transform: uppercase;
+    background: url(/image/bgUniversidades.jpg) bottom no-repeat;
+    padding-top: 27px;
+    vertical-align: top;
+}
+
+.Footer-ListUniversidades li a:hover
+{
+    background-position: top;
+}
+
+.Footer-Informacion
+{
+    width: 320px;
+    height: 134px;
+    margin: 0px auto;
+    padding-top: 75px;
+}
+
+.RedesSociales-Center
+{
+    width: 260px;
+    height: 36px;
+    margin-left: 50px;
+}
+
+.RedesSociales-Center figure
+{
+    width: 20px;
+    height: 33px;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.Footer-Informacion p
+{
+    width: 309px;
+    font: 15px 'optima-regular';
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.Footer-Privacidad
+{
+    font: 15px 'optima-black';
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    margin-left: 68px;
+}
+
+.Footer-Privacidad:hover
+{
+    text-decoration: underline;
+}
+/******************************************************/
+.Menu-RedesSociales
+{
+    width: 210px;
+    height: 37px;
+    margin-left: 60px;
+}
+
+.Menu-ItemRedSocial
+{
+    display: inline-block;
+    height: 47px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Menu-Ico
+{
+  	width: 30px;
+  	height: 24px;
+}
+
+.Menu-Ico--Tienda
+{
+  	height: 32px;
+  	background: url(/image/sociales/ico-facebook.png) top no-repeat
+}
+
+.Menu-Ico--Face
+{
+    width: 33px;
+    height: 35px;
+  	background: url(/image/sociales/ico-youtube.png) top no-repeat;
+  	margin-top: -2px;
+}
+
+.Menu-Ico--Twitter
+{
+	  background: url(/image/sociales/ico-twitter.png) top no-repeat;
+}
+
+.Menu-Ico--Mail
+{
+	  background: url(/image/sociales/ico-linkedin.png) top no-repeat;
+    height: 31px;
+}
+
+.Menu-ItemRedSocial:hover
+{
+  	-webkit-transform: translateY(-5px);
+  	-o-transform: translateY(-5px);
+  	-moz-transform: translateY(-5px);
+  	-ms-transform: translateY(-5px);
+  	transform: translateY(-5px);
+}
+
+.Menu-ItemRedSocial:hover
+{
+	  background-position: bottom;
+}
+
+
+a, a:before, a:after
+{
+    color: #ffffff ;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+a:hover, a:hover:before, a:hover:after
+{
+    cursor: pointer;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.Responsive-Uceprog
+{
+  display: none;
+}
