@@ -27,7 +27,7 @@
                             </ul>
                         </li>
                         <li><a class="outside" href="{{ route('admision') }}">Admisiones</a></li>   
-                        <li><a class="outside" href="Tuxtla_oferta_educativa.html">Oferta Educativa</a></li>                  
+                        <li><a class="outside" href="{{ route('ofertaTuxtla') }}">Oferta Educativa</a></li>                  
                     </ul>
                 </nav>
   

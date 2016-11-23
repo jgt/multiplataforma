@@ -26,7 +26,7 @@
                             </ul>
                         </li>
                         <li><a class="outside" href="{{ route('admision') }}">Admisiones</a></li>   
-                        <li><a class="outside" href="palenque_oferta_educativa.html">Oferta Educativa</a></li>         
+                        <li><a class="outside" href="{{ route('ofertaPalenque') }}">Oferta Educativa</a></li>         
                         <li><a class="outside" href="{{ route('contactoPalenque') }}">Contáctanos</a></li>          
                     </ul>
                 </nav>

@@ -28,7 +28,7 @@
                             </ul>
                         </li>
                         <li><a class="outside" href="{{ route('admision') }}">Admisiones</a></li>   
-                        <li><a class="outside" href="Reforma_oferta_educativa.html">Oferta Educativa</a></li>                  
+                        <li><a class="outside" href="{{ route('ofertaReforma') }}">Oferta Educativa</a></li>                  
                     </ul>
                 </nav>
   

@@ -11,7 +11,7 @@ class PaginaCeprogController extends Controller
     
     public function index()
     {
-    	return view('homeInternos.mensaje');	
+    	return view('layouts.PaginaCeprog.Home.mensaje');	
     }
 
     public function home()
@@ -21,7 +21,7 @@ class PaginaCeprogController extends Controller
 
     public function mision()
     {
-    	return view('homeInternos.mision');
+    	return view('layouts.PaginaCeprog.Home.mision');
     }
 
     public function testInteligencia()

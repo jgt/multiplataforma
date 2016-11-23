@@ -69,13 +69,13 @@
                             <div class="trans"></div>
                         </div>
                         <ul>
-                            <li><a href="Licenciaturas_AdministracionEmpresas_sancristobal.html">Lic. en Administración de Empresas</a></li>
-                            <li><a href="Licenciaturas_AdministracionEmpresaTuristica_sancristobal.html">Lic. en Administración de Empresas Turísticas</a></li>
-                            <li><a href="Licenciaturas_Arquitectura_sancristobal.html">Lic. en Arquitectura</a></li>
-                            <li><a href="Licenciaturas_ContaduriaPublica_sancristobal.html">Lic. en Contaduría Pública</a></li>
-                            <li><a href="Licenciaturas_Derecho_sancristobal.html">Lic. en Derecho</a></li>
-                            <li><a href="Licenciaturas_Informática_sancristobal.html">Lic. en Informática</a></li>
-                            <li><a href="Licenciaturas_PsicologíaGeneral_sancristobal.html">Lic. en Psicología General </a></li> 
+                            <li><a href="{{ route('adminEmpresasSancristobal') }}">Lic. en Administración de Empresas</a></li>
+                            <li><a href="{{ route('adminEmpresasTuristicaSancristobal') }}">Lic. en Administración de Empresas Turísticas</a></li>
+                            <li><a href="{{ route('arquitecturaSancristobal') }}">Lic. en Arquitectura</a></li>
+                            <li><a href="{{ route('contaduriaPublicaSancristobal') }}">Lic. en Contaduría Pública</a></li>
+                            <li><a href="{{ route('derechoSancristobal') }}">Lic. en Derecho</a></li>
+                            <li><a href="{{ route('informaticaSancristobal') }}">Lic. en Informática</a></li>
+                            <li><a href="{{ route('psicologiaGeneralSancristobal') }}">Lic. en Psicología General </a></li> 
                        
                        
                         </ul>
@@ -88,10 +88,10 @@
                             <div class="trans"></div>
                         </div>
                         <ul>
-                            <li><a href="Posgrado_Administracion_sancristobal.html">Maestría en Administración</a></li>
-                            <li><a href="Posgrado_Computacion_sancristobal.html">Maestría en Computación con Formación en Base de Datos</a></li>
-                            <li><a href="Posgrado_Derecho_Constitucional_sancristobal.html">Maestría en Derecho Constitucional y Amparo</a></li>
-                            <li><a href="Posgrado_Finanzas_sancristobal.html">Maestría en Finanzas Estratégicas</a></li>                           
+                            <li><a href="{{ route('maestriaAdministracionSancristobal') }}">Maestría en Administración</a></li>
+                            <li><a href="{{ route('maestriaComputacionSancristobal') }}">Maestría en Computación con Formación en Base de Datos</a></li>
+                            <li><a href="{{ route('maestriaDerechoConstitucionalSancristobal') }}">Maestría en Derecho Constitucional y Amparo</a></li>
+                            <li><a href="{{ route('maestriaFinanzasSancristobal') }}">Maestría en Finanzas Estratégicas</a></li>                           
                         </ul>
                     </div>
                 </li>    

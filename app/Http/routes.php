@@ -22,85 +22,67 @@ Route::get('mision', ['as' => 'mision', 'uses' => 'PaginaCeprogController@mision
 Route::get('testInteligencia', ['as' => 'testInteligencia', 'uses' => 'PaginaCeprogController@testInteligencia']);
 
 Route::group(['namespace' => 'campus'], function(){
-
-Route::get('palenqueHome', ['as' => 'palenqueHome', 'uses' => 'AdminCampusController@palenqueHome']);
-Route::get('reformaHome', ['as' => 'reformaHome', 'uses' => 'AdminCampusController@reformaHome']);
-Route::get('sancristobalHome', ['as' => 'sancristobalHome', 'uses' => 'AdminCampusController@sancristobalHome']);
-Route::get('tuxtlaHome', ['as' => 'tuxtlaHome', 'uses' => 'AdminCampusController@tuxtlaHome']);
-Route::get('admision', ['as' => 'admision', 'uses' => 'AdminCampusController@admision']);
-
-
+	require __DIR__ .'/PaginaCeprog\Campus\campus.php';
 });
-
 Route::group(['namespace' => 'campus\Galerias'], function(){
-
-	Route::get('galeriaPalenque', ['as' => 'galeriaPalenque', 'uses' => 'GaleriaControllers@galeriaPalenque']);
-	Route::get('galeriaReforma', ['as' => 'galeriaReforma', 'uses' => 'GaleriaControllers@galeriaReforma']);
-	Route::get('galeriaSancristobal', ['as' => 'galeriaSancristobal', 'uses' => 'GaleriaControllers@galeriaSancristobal']);
-	Route::get('galeriaTuxtla', ['as' => 'galeriaTuxtla', 'uses' => 'GaleriaControllers@galeriaTuxtla']);
-
+	require __DIR__ .'/PaginaCeprog\Galerias\galeria.php';
 });
-
 Route::group(['namespace' => 'campus\Servicios'], function(){
-
-	Route::get('serviciosGeneral', ['as' => 'serviciosGeneral', 'uses' => 'ServiciosController@servicioGeneral']);
-	Route::get('servicioReforma', ['as' => 'servicioReforma', 'uses' => 'ServiciosController@servicioReforma']);
-	Route::get('servicioSancristobal', ['as' => 'servicioSancristobal', 'uses' => 'ServiciosController@servicioSancristobal']);
-	Route::get('servicioTuxtla', ['as' => 'servicioTuxtla', 'uses' => 'ServiciosController@servicioTuxtla']);
-
+	require __DIR__ .'/PaginaCeprog\Servicios\servicio.php';
 });
-
-
 Route::group(['namespace' => 'campus\Contacto'], function(){
-
-	Route::get('contactoPalenque', ['as' => 'contactoPalenque', 'uses' => 'ContactoConstroller@contactoPalenque']);
-	Route::get('contactoReforma', ['as' => 'contactoReforma', 'uses' => 'ContactoConstroller@contactoReforma']);
-	Route::get('contactoSancristobal', ['as' => 'contactoSancristobal', 'uses' => 'ContactoConstroller@contactoSancristobal']);
-	Route::get('contactoTuxtla', ['as' => 'contactoTuxtla', 'uses' => 'ContactoConstroller@contactoTuxtla']);
-
+	require __DIR__ .'/PaginaCeprog\Contactos\contacto.php';	
 });
-
-
 Route::group(['namespace' => 'campus\OfertaEducativa'], function(){
-
-	Route::get('ofertaPalenque', ['as' => 'ofertaPalenque', 'uses' => 'OfertaEducativaController@ofertaPalenque']);
-	Route::get('ofertaReforma', ['as' => 'ofertaReforma', 'uses' => 'OfertaEducativaController@ofertaReforma']);
-	Route::get('ofertaSancristobal', ['as' => 'ofertaSancristobal', 'uses' => 'OfertaEducativaController@ofertaSancristobal']);
-	Route::get('ofertaTuxtla', ['as' => 'ofertaTuxtla', 'uses' => 'OfertaEducativaController@ofertaTuxtla']);
-
+	require __DIR__ .'/PaginaCeprog\OfertaEducativa\oferta.php';
 });
-
-
 Route::group(['namespace' => 'campus\Licenciaturas\LicenciaturaPalenque'], function(){
-
-	Route::get('adminEmpresas', ['as' => 'adminEmpresas', 'uses' => 'LicPalenqueController@adminEmpresas']);
-	Route::get('arquitectura', ['as' => 'arquitectura', 'uses' => 'LicPalenqueController@arquitectura']);
-	Route::get('adminTuristicas', ['as' => 'adminTuristicas', 'uses' => 'LicPalenqueController@adminTuristicas']);
-	Route::get('contaduriaPublica', ['as' => 'contaduriaPublica', 'uses' => 'LicPalenqueController@contaduriaPublica']);
-	Route::get('derecho', ['as' => 'derecho', 'uses' => 'LicPalenqueController@derecho']);
-	Route::get('enfermeria', ['as' => 'enfermeria', 'uses' => 'LicPalenqueController@enfermeria']);
-	Route::get('informatica', ['as' => 'informatica', 'uses' => 'LicPalenqueController@informatica']);
-	Route::get('ingenieriaCivil', ['as' => 'ingenieriaCivil', 'uses' => 'LicPalenqueController@ingenieriaCivil']);
-	Route::get('ingenieriaTelematica', ['as' => 'ingenieriaTelematica', 'uses' => 'LicPalenqueController@ingenieriaTelematica']);
-	Route::get('psicologiaGeneral', ['as' => 'psicologiaGeneral', 'uses' => 'LicPalenqueController@psicologiaGeneral']);
-
+	require __DIR__ .'/PaginaCeprog\LicenciaturaPalenque\licenciatura.php';
 });
-
-
-
 Route::group(['namespace' => 'campus\Maestrias\MaestriasPalenque'], function(){
-
-	Route::get('maestriaAdministracion', ['as' => 'maestriaAdministracion', 'uses' => 'MaePalenqueController@mAdministracion']);
-	Route::get('maestriaCienciaEducacion', ['as' => 'maestriaCienciaEducacion', 'uses' => 'MaePalenqueController@maestriaCienciaEducacion']);
-	Route::get('maestriaComputacion', ['as' => 'maestriaComputacion', 'uses' => 'MaePalenqueController@maestriaComputacion']);
-	Route::get('maestriaDerecho', ['as' => 'maestriaDerecho', 'uses' => 'MaePalenqueController@maestriaDerecho']);
-	Route::get('maestriaDerechoPenal', ['as' => 'maestriaDerechoPenal', 'uses' => 'MaePalenqueController@maestriaDerechoPenal']);
-	Route::get('maestriaFinanzas', ['as' => 'maestriaFinanzas', 'uses' => 'MaePalenqueController@maestriaFinanzas']);
-
+	require __DIR__ .'/PaginaCeprog\MaestriasPalenque\maestria.php';
 });
 
 Route::group(['namespace' => 'campus\Doctorado\DoctoradoPalenque'], function(){
 
 	Route::get('doctoradoEducacion', ['as' => 'doctoradoEducacion', 'uses' => 'DocController@doctoradoEducacion']);
+
+});
+
+Route::group(['namespace' => 'campus\Licenciaturas\LicenciaturaReforma'], function(){
+
+Route::get('adminEmpresasReforma', ['as' => 'adminEmpresasReforma', 'uses' => 'LicReformaController@adminEmpresas']);
+Route::get('contaduriaPublicaReforma', ['as' => 'contaduriaPublicaReforma', 'uses' => 'LicReformaController@contaduriaPublica']);
+Route::get('informaticaReforma', ['as' => 'informaticaReforma', 'uses' => 'LicReformaController@informatica']);
+Route::get('psicologiaGeneralReforma', ['as' => 'psicologiaGeneralReforma', 'uses' => 'LicReformaController@psicologiaGeneral']);
+Route::get('derechoReforma', ['as' => 'derechoReforma', 'uses' => 'LicReformaController@derecho']);
+
+});
+
+Route::group(['namespace' => 'campus\Maestrias\MaestriasReforma'], function(){
+
+Route::get('maestriaCienciaEducacionReforma', ['as' => 'maestriaCienciaEducacionReforma', 'uses' => 'MaeReformaController@cienciaEducacion']);
+
+});
+
+Route::group(['namespace' => 'campus\Licenciaturas\LicenciaturasSancristobal'], function(){
+
+Route::get('adminEmpresasSancristobal', ['as' => 'adminEmpresasSancristobal', 'uses' => 'LicSancristobalController@adminEmpresas']);
+Route::get('adminEmpresasTuristicaSancristobal', ['as' => 'adminEmpresasTuristicaSancristobal', 'uses' => 'LicSancristobalController@adminEmpresasTuristica']);
+Route::get('arquitecturaSancristobal', ['as' => 'arquitecturaSancristobal', 'uses' => 'LicSancristobalController@arquitectura']);
+Route::get('contaduriaPublicaSancristobal', ['as' => 'contaduriaPublicaSancristobal', 'uses' => 'LicSancristobalController@contaduriaPublica']);
+Route::get('derechoSancristobal', ['as' => 'derechoSancristobal', 'uses' => 'LicSancristobalController@derecho']);
+Route::get('informaticaSancristobal', ['as' => 'informaticaSancristobal', 'uses' => 'LicSancristobalController@informatica']);
+Route::get('psicologiaGeneralSancristobal', ['as' => 'psicologiaGeneralSancristobal', 'uses' => 'LicSancristobalController@psicologiaGeneral']);
+
+});
+
+
+Route::group(['namespace' => 'campus\Maestrias\MaestriaSancristobal'], function(){
+
+Route::get('maestriaAdministracionSancristobal', ['as' => 'maestriaAdministracionSancristobal', 'uses' => 'MaeSancristobalController@administracion']);
+Route::get('maestriaComputacionSancristobal', ['as' => 'maestriaComputacionSancristobal', 'uses' => 'MaeSancristobalController@computacion']);
+Route::get('maestriaDerechoConstitucionalSancristobal', ['as' => 'maestriaDerechoConstitucionalSancristobal', 'uses' => 'MaeSancristobalController@derechoConstitucional']);
+Route::get('maestriaFinanzasSancristobal', ['as' => 'maestriaFinanzasSancristobal', 'uses' => 'MaeSancristobalController@finanzas']);
 
 });

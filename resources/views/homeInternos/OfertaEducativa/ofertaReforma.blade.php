@@ -69,11 +69,11 @@
                             <div class="trans"></div>
                         </div>
                         <ul>
-                            <li><a href="Licenciaturas_AdministracionEmpresas_reforma.html">Lic. en Administración de Empresas</a></li>
-                            <li><a href="Licenciaturas_ContaduriaPublica_reforma.html">Lic. en Contaduría Pública</a></li>
-                            <li><a href="Licenciaturas_Informática_reforma.html">Lic. en Informática</a></li> 
-                            <li><a href="Licenciaturas_PsicologíaGeneral_reforma.html">Lic. en Psicología General </a></li>
-                         	<li><a href="Licenciaturas_Derecho_reforma.html">Lic. en Derecho</a></li>                     
+                            <li><a href="{{ route('adminEmpresasReforma') }}">Lic. en Administración de Empresas</a></li>
+                            <li><a href="{{ route('contaduriaPublicaReforma') }}">Lic. en Contaduría Pública</a></li>
+                            <li><a href="{{ route('informaticaReforma') }}">Lic. en Informática</a></li> 
+                            <li><a href="{{ route('psicologiaGeneralReforma') }}">Lic. en Psicología General </a></li>
+                         	<li><a href="{{ route('derechoReforma') }}">Lic. en Derecho</a></li>                     
                      
                        
                         </ul>
@@ -86,7 +86,7 @@
                             <div class="trans"></div>
                         </div>
                         <ul>
-                            <li><a href="Posgrado_Ciencia_Educacion_reforma.html">Maestría en Ciencias de la Educación</a></li>
+                            <li><a href="{{ route('maestriaCienciaEducacionReforma') }}">Maestría en Ciencias de la Educación</a></li>
                         </ul>
                     </div>
                 </li>    

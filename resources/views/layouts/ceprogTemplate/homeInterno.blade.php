@@ -37,6 +37,9 @@
     Licenciaturas Palenque.
 
     -->
+
+    <!--====================================================================== -->
+
     @yield('content_adminEmpresas')
     @yield('content_arquitectura')
     @yield('content_adminTuristicas')
@@ -48,13 +51,14 @@
     @yield('content_ingenieriaTelematica')
     @yield('content_psicologiaGeneral')
 
-    <!-------------------------------------------------------------------------------------->
 
     <!--
     
     Maestrias Palenque
 
     -->
+
+    <!--====================================================================== -->
 
     @yield('content_mAdministracion')
     @yield('content_maestriaCienciaEducacion')
@@ -63,8 +67,7 @@
     @yield('content_maestriaDerechoPenal')
     @yield('content_maestriaFinanzas')
 
-    <!----------------------------------------------------------------------------------------->
-
+<!--====================================================================== -->
 
     <!--
     
@@ -74,7 +77,8 @@
 
     @yield('content_doctoradoEducacion')
 
-    <!------------------------------------------------------------------------------------------->
+
+<!--====================================================================== -->
 
     @yield('content_reformaHome')
     @yield('content_galeriaReforma')
@@ -82,17 +86,88 @@
     @yield('content_contactoReforma')
     @yield('content_ofertaReforma')
 
+    <!--
+
+    Licenciaturas Reforma
+
+    -->
+
+    <!--====================================================================== -->
+
+    @yield('content_adminEmpresasReforma')
+    @yield('content_contaduriaPublicaReforma')
+    @yield('content_informaticaReforma')
+    @yield('content_psicologiaGeneralReforma')
+    @yield('content_derechoReforma')
+
+    <!--====================================================================== -->
+
+    <!--
+    
+    Maestrias Reforma
+
+    -->
+
+    @yield('content_cienciaEducacionReforma')
+
+    
+<!--====================================================================== -->
+
     @yield('content_sancristobalHome')
     @yield('content_galeriaSancristobal')
     @yield('content_servicioSancristobal')
     @yield('content_contactoSancristobal')
     @yield('content_ofertaSancristobal')
 
+<!--====================================================================== -->
+
+    <!--
+    
+    Licenciaturas Sancristobal
+
+    -->
+
+     @yield('content_adminEmpresasSancristobal')
+     @yield('content_adminEmpresasTuristicasSancristobal')
+     @yield('content_arquitecturaSancristobal')
+     @yield('content_contaduriaPublicaSancristobal')
+     @yield('content_derechoSancristobal')
+     @yield('content_informaticaSancristobal')
+     @yield('content_psicologiaGeneralSancristobal')
+
+
+<!--====================================================================== -->
+
+    <!--
+    
+    Maestrias Sancristobal
+
+    -->
+
+    @yield('content_maestriaAdministracionSancristobal')
+    @yield('content_maestriaComputacionSancristobal')
+    @yield('content_maestriaDerechoConstitucionalSancristobal')
+    @yield('content_maestriaFinanzasSancristobal')
+
+
+<!--====================================================================== -->
+
     @yield('content_tuxtlaHome')
     @yield('content_galeriaTuxtla')
     @yield('content_servicioTuxtla')
     @yield('content_contactoTuxtla')
     @yield('content_ofertaTuxtla')
+
+    <!--
+    
+    Preparatoria Tuxtla
+
+    -->
+    
+    
+
+
+    <!--====================================================================== -->
     
 	
 	<!-- Contact Form

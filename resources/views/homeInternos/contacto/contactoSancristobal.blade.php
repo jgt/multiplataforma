@@ -28,7 +28,7 @@
                             </ul>
                         </li>
                         <li><a class="outside" href="{{ route('admision') }}">Admisiones</a></li>   
-                        <li><a class="outside" href="San_Cristobal_oferta_educativa.html">Oferta Educativa</a></li>                  
+                        <li><a class="outside" href="{{ route('ofertaSancristobal') }}">Oferta Educativa</a></li>                  
                     </ul>
                 </nav>
   
